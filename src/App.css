@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -11,6 +13,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.comp{
+  position: relative;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
 }
 
 .App-header {
@@ -28,11 +37,12 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+li {
+  width:30px
+}
+
+button{
+  position: absolute;
+  top:500px;
 }
